@@ -1,0 +1,20 @@
+# Site settings
+author: Romano Livi 
+title: CLI Project - My Experience Working on 1st Project
+header-img: img/home-bg.png
+email: romano_livi@outlook.com
+copyright_name: Romano Livi 
+description: > # this means to ignore newlines until "baseurl:"
+  Summary of my experience working on the first CLI project
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  romanolivi
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
